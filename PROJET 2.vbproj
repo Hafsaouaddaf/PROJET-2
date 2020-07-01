@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E25E99E1-877D-4EA2-A1AC-DDADB31A6E03}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PROJET_2.My.MyApplication</StartupObject>
+    <RootNamespace>PROJET_2</RootNamespace>
+    <AssemblyName>PROJET 2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PROJET 2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PROJET 2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accessoire.Designer.vb">
+      <DependentUpon>Accessoire.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Accessoire.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accueil.Designer.vb">
+      <DependentUpon>Accueil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Accueil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accueil1.Designer.vb">
+      <DependentUpon>Accueil1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Accueil1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adoption.vb" />
+    <Compile Include="CH1.Designer.vb">
+      <DependentUpon>CH1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CH1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CH2.Designer.vb">
+      <DependentUpon>CH2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CH2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CH3.Designer.vb">
+      <DependentUpon>CH3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CH3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CH4.Designer.vb">
+      <DependentUpon>CH4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CH4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CH5.Designer.vb">
+      <DependentUpon>CH5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CH5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chien.Designer.vb">
+      <DependentUpon>Chien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chien.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chien1.Designer.vb">
+      <DependentUpon>Chien1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chien1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chien2.Designer.vb">
+      <DependentUpon>Chien2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chien2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleAccessoire.vb" />
+    <Compile Include="ModuleChien.vb" />
+    <Compile Include="ModuleClient.vb" />
+    <Compile Include="ModuleNourriture.vb" />
+    <Compile Include="ModuleP2.vb" />
+    <Compile Include="ModulePanier.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Nourriture.Designer.vb">
+      <DependentUpon>Nourriture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nourriture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="P09.Designer.vb">
+      <DependentUpon>P09.vb</DependentUpon>
+    </Compile>
+    <Compile Include="P09.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="P10.Designer.vb">
+      <DependentUpon>P10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="P10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="P11.Designer.vb">
+      <DependentUpon>P11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="P11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="P12.Designer.vb">
+      <DependentUpon>P12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="P12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panier.Designer.vb">
+      <DependentUpon>Panier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recettes.Designer.vb">
+      <DependentUpon>Recettes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Recettes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Accessoire.resx">
+      <DependentUpon>Accessoire.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accueil.resx">
+      <DependentUpon>Accueil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accueil1.resx">
+      <DependentUpon>Accueil1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CH1.resx">
+      <DependentUpon>CH1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CH2.resx">
+      <DependentUpon>CH2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CH3.resx">
+      <DependentUpon>CH3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CH4.resx">
+      <DependentUpon>CH4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CH5.resx">
+      <DependentUpon>CH5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chien.resx">
+      <DependentUpon>Chien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chien1.resx">
+      <DependentUpon>Chien1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chien2.resx">
+      <DependentUpon>Chien2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nourriture.resx">
+      <DependentUpon>Nourriture.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="P09.resx">
+      <DependentUpon>P09.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="P10.resx">
+      <DependentUpon>P10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="P11.resx">
+      <DependentUpon>P11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="P12.resx">
+      <DependentUpon>P12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panier.resx">
+      <DependentUpon>Panier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recettes.resx">
+      <DependentUpon>Recettes.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
